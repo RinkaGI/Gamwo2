@@ -10,7 +10,8 @@ Gamwo2 is thinked for use Pyglet and OpenGL3 together, will have physics, 2D, 3D
 I want to make a lot of things mentioned in last section but sounds better if has 2 at end.
 
 ## TODO:
-    - [ ] Make a window.
+    - [X] Make a window.
+    - [ ] Fix window bugs.
     - [ ] Design event system.
     - [ ] Add event system.
     - [ ] Add OpenGL support to window.
