@@ -1,0 +1,1 @@
+from Gamwo2.Core import Gamwo2D

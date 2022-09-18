@@ -1,0 +1,27 @@
+from Gamwo2 import *
+
+# Gamwo2D class will make initGamwo function, make a window, vao etc...
+game = Gamwo2D(
+    title = "My game",
+    width = 1280,
+    height = 960,
+    backgroundColor = "pink"
+)
+
+# Execute with a loop the game
+game.gameLoop()
+
+#################################### 3D OPTION ############################ JUST FUTURE PLANING...
+
+from Gamwo2 import *
+
+game = Gamwo3D(
+    title = "My 3D game",
+    width = 1280,
+    height = 960,
+    backgroundColor = "pink"
+)
+
+game.setCamera(0, 0, 1280, 960)
+
+game.gameLoop()
